@@ -1,0 +1,36 @@
+{
+  "name": "reactjs_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "babel-node tools/run bundle",
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "css-loader": "*",
+    "extract-text-webpack-plugin": "*",
+    "html-webpack-plugin": "*",
+    "jquery": "*",
+    "less": "*",
+    "less-loader": "*",
+    "react": "*",
+    "react-dom": "*",
+    "redux": "*",
+    "style-loader": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*"
+  },
+  "dependencies": {
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0"
+  }
+}
