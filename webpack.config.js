@@ -1,6 +1,7 @@
 var path=require('path');
 var webpack=require('webpack');
 var extractTextPlugin=require('extract-text-webpack-plugin');
+console.log(__dirname);
 module.exports={
 	entry:['webpack/hot/dev-server',path.resolve(__dirname,'./app/main.js')],
 	output:{
